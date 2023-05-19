@@ -12,10 +12,11 @@ public class BeginnerOne {
     }
 
     public static void hello() {
+
         System.out.println("Goedemorgen Nederland");
     }
 
     public static void goodbye() {
-
+        System.out.println("Goedenavond Nederland");
     }
 }
