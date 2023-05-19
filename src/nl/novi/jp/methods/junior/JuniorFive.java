@@ -10,4 +10,11 @@ package nl.novi.jp.methods.junior;
  */
 
 public class JuniorFive {
+    public static void main(String[] args) {
+        tranformToUppercase("Deze zin wordt omgezet naar hoofdletters.");
+    }
+
+    private static void tranformToUppercase(String sentence) {
+        System.out.println(sentence.toUpperCase());
+    }
 }
