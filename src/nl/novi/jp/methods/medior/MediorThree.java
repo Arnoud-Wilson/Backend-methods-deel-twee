@@ -11,14 +11,15 @@ package nl.novi.jp.methods.medior;
 public class MediorThree {
 
     public static void main(String[] args) {
-        printName("SjAaK", "Patat");
-        printName("henk","spaghetti");
-        printName("Doerak", "BELL");
+        printName(firstLetterToUpperCase("SjAaK"), firstLetterToUpperCase("Patat"));
+        printName(firstLetterToUpperCase("henk"), firstLetterToUpperCase("spaghetti"));
+        printName(firstLetterToUpperCase("Doerak"), firstLetterToUpperCase("BELL"));
     }
 
     public static void printName(String firstName, String lastName) {
         System.out.println("Naam: " + firstName + " " + lastName);
     }
+
 
     public static String firstLetterToUpperCase(String name) {
 
