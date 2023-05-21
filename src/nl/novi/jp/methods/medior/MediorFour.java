@@ -79,12 +79,15 @@ public class MediorFour {
         }
     }
 
-    //TODO Zorgen dat het laatste streepje weg blijft
     public static void printNumbers(List<String> resultStringList) {
         String result = "";
 
-        for (String s: resultStringList) {
-            result = result + s + "-";
+        for (int i = 0; i < resultStringList.size(); i++) {
+            result = result + resultStringList.get(i);
+
+            if(i + 1 != resultStringList.size()) {
+                result = result + "-";
+            }
         }
         System.out.println(result);
     }
